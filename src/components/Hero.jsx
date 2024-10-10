@@ -5,6 +5,7 @@ import hero from "../assets/img/hero.jpeg"
 export default function Hero() {
   return (
     <section className="relative flex h-screen items-center justify-center">
+      {/*<div className="absolute h-full w-full backdrop-blur-lg z-50"></div>*/}
       <div className="absolute inset-0 -z-20 h-full w-full overflow-hidden">
         <video src={video} className="h-full w-full object-cover" poster={hero} muted autoPlay loop playsInline>
         </video>
