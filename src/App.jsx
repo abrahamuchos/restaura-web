@@ -1,13 +1,15 @@
+import Hero from "./components/Hero.jsx";
+
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline bg-white">
-        Hello world!
-      </h1>
-    </>
+    <main>
+      <Hero/>
+
+
+    </main>
   )
 }
 
