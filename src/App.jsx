@@ -4,6 +4,7 @@ import Dishes from "./components/Dishes.jsx";
 import About from "./components/About.jsx";
 
 import './App.css'
+import Mission from "./components/Mission.jsx";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Dishes/>
       <About/>
+      <Mission/>
 
     </main>
   )
