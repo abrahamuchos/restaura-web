@@ -24,53 +24,67 @@ export const LINKS = [
   { text: "Contact", targetId: "contact" },
 ];
 
+/**
+ *
+ * @type {Array<Project>}
+ */
 export const DISHES = [
   {
+    id: 1,
     image: dish1,
     title: "Spaghetti Carbonara",
     description: "Creamy pasta with bacon and cheese",
   },
   {
+    id: 2,
     image: dish2,
     title: "Chicken Tikka Masala",
     description: "Indian curry with tender chicken in spicy sauce",
   },
   {
+    id: 3,
     image: dish3,
     title: "Caprese Salad",
     description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
   },
   {
+    id: 4,
     image: dish4,
     title: "Sushi Roll",
     description: "Assorted seafood and vegetables wrapped in seaweed and rice",
   },
   {
+    id: 5,
     image: dish5,
     title: "Chocolate Lava Cake",
     description: "Decadent chocolate cake with a gooey center",
   },
   {
+    id: 6,
     image: dish6,
     title: "Greek Salad",
     description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
   },
   {
+    id: 7,
     image: dish7,
     title: "Pad Thai",
     description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
   },
   {
+    id: 8,
     image: dish8,
     title: "Peking Duck",
     description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
   },
   {
+    id: 9,
     image: dish9,
     title: "Beef Wellington",
     description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
   },
   {
+    id: 10,
     image: dish10,
     title: "Tiramisu",
     description:
