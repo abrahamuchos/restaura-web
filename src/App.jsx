@@ -1,8 +1,9 @@
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
+import Dishes from "./components/Dishes.jsx";
+import About from "./components/About.jsx";
 
 import './App.css'
-import Dishes from "./components/Dishes.jsx";
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Dishes/>
-
+      <About/>
 
     </main>
   )
