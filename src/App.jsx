@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 
 import './App.css'
 import Mission from "./components/Mission.jsx";
+import Expertise from "./components/Expertise.jsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Dishes/>
       <About/>
       <Mission/>
+      <Expertise/>
 
     </main>
   )
