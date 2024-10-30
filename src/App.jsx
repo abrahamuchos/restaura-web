@@ -6,6 +6,7 @@ import About from "./components/About.jsx";
 import './App.css'
 import Mission from "./components/Mission.jsx";
 import Expertise from "./components/Expertise.jsx";
+import Review from "./components/Review.jsx";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Mission/>
       <Expertise/>
+      <Review/>
 
     </main>
   )
