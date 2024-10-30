@@ -2,12 +2,13 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Dishes from "./components/Dishes.jsx";
 import About from "./components/About.jsx";
-
-import './App.css'
 import Mission from "./components/Mission.jsx";
 import Expertise from "./components/Expertise.jsx";
 import Review from "./components/Review.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
+
+import './App.css'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Expertise/>
       <Review/>
       <Contact/>
+      <Footer/>
 
     </main>
   )
