@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 import logo from "../assets/img/logo.png"
-import video from "../assets/img/hero.mp4"
-import hero from "../assets/img/hero.jpeg"
+import video from "../assets/video/hero.mp4"
+import hero from "../assets/img/desktop/hero-2xl.jpeg"
 
 export default function Hero() {
   return (
