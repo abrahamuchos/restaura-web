@@ -1,7 +1,24 @@
+import {motion} from 'framer-motion';
 import { CUSINES } from "../assets/constants/index.jsx";
 
-
 export default function Expertise() {
+  const containerVariants = {
+    hidden: {opacity: 0},
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 1,
+      },
+    }
+  }
+
+  const itemVariants = {
+    hidden: {opacity: 0, y: 20},
+    show: {
+      opacity: 1, y: 0,
+      transition: {duration: 1}
+    },
+  }
 
   return (
     <section id='expertise'>
@@ -9,9 +26,18 @@ export default function Expertise() {
         Our Expertise
       </h2>
 
-      <div className="container mx-auto px-4">
+      <motion.div
+        className="container mx-auto px-4"
+        initial="hidden"
+        whileInView="show"
+        variants={containerVariants}
+      >
         {CUSINES.map((cusine, index) => (
-          <div key={index} className='flex items-center border-b-4 border-dotted border-neutral-700/40 py-2'>
+          <motion.div
+            key={index}
+            className='flex items-center border-b-4 border-dotted border-neutral-700/40 py-2'
+            variants={itemVariants}
+          >
 
             <div className="flex-shrink-0 pr-8 text-2xl">{cusine.number}</div>
 
@@ -25,9 +51,9 @@ export default function Expertise() {
               </h3>
               <p className="mt-4 text-lg tracking-tighter">{cusine.description}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
 
     </section>
   );
