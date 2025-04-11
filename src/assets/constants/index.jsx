@@ -1,17 +1,17 @@
-import dish1 from "../assets/dish1.jpeg";
-import dish2 from "../assets/dish2.jpeg";
-import dish3 from "../assets/dish3.jpeg";
-import dish4 from "../assets/dish4.jpeg";
-import dish5 from "../assets/dish5.jpeg";
-import dish6 from "../assets/dish6.jpeg";
-import dish7 from "../assets/dish7.jpeg";
-import dish8 from "../assets/dish8.jpeg";
-import dish9 from "../assets/dish9.jpeg";
-import dish10 from "../assets/dish10.jpeg";
+import dish1 from "../img/dish1.jpeg";
+import dish2 from "../img/dish2.jpeg";
+import dish3 from "../img/dish3.jpeg";
+import dish4 from "../img/dish4.jpeg";
+import dish5 from "../img/dish5.jpeg";
+import dish6 from "../img/dish6.jpeg";
+import dish7 from "../img/dish7.jpeg";
+import dish8 from "../img/dish8.jpeg";
+import dish9 from "../img/dish9.jpeg";
+import dish10 from "../img/dish10.jpeg";
 
-import italian from "../assets/italian.jpeg";
-import japanese from "../assets/japanese.jpeg";
-import indian from "../assets/indian.jpeg";
+import italian from "../img/italian.jpeg";
+import japanese from "../img/japanese.jpeg";
+import indian from "../img/indian.jpeg";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
@@ -24,53 +24,67 @@ export const LINKS = [
   { text: "Contact", targetId: "contact" },
 ];
 
+/**
+ *
+ * @type {Array<Project>}
+ */
 export const DISHES = [
   {
+    id: 1,
     image: dish1,
     title: "Spaghetti Carbonara",
     description: "Creamy pasta with bacon and cheese",
   },
   {
+    id: 2,
     image: dish2,
     title: "Chicken Tikka Masala",
     description: "Indian curry with tender chicken in spicy sauce",
   },
   {
+    id: 3,
     image: dish3,
     title: "Caprese Salad",
     description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
   },
   {
+    id: 4,
     image: dish4,
     title: "Sushi Roll",
     description: "Assorted seafood and vegetables wrapped in seaweed and rice",
   },
   {
+    id: 5,
     image: dish5,
     title: "Chocolate Lava Cake",
     description: "Decadent chocolate cake with a gooey center",
   },
   {
+    id: 6,
     image: dish6,
     title: "Greek Salad",
     description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
   },
   {
+    id: 7,
     image: dish7,
     title: "Pad Thai",
     description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
   },
   {
+    id: 8,
     image: dish8,
     title: "Peking Duck",
     description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
   },
   {
+    id: 9,
     image: dish9,
     title: "Beef Wellington",
     description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
   },
   {
+    id: 10,
     image: dish10,
     title: "Tiramisu",
     description:
@@ -126,12 +140,12 @@ export const CONTACT = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://facebook.com/",
     icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
   },
 
   {
-    href: "https://x.com/",
+    href: "https://instagram.com/",
     icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
   },
   {
